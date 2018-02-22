@@ -1,0 +1,7 @@
+import grailsviewbug.MyClass
+
+model {
+  MyClass myClass
+}
+
+json g.render(myClass)

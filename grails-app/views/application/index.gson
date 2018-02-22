@@ -1,0 +1,11 @@
+import grailsviewbug.MyClass
+
+model {
+	MyClass myClass
+}
+
+json {
+	property myClass.property
+	duration myClass.duration
+}
+
